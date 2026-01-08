@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimemtal : {
+    turbopackFileSystemCacheForDev : true,
+  }
 };
 
 export default nextConfig;
