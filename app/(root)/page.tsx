@@ -1,5 +1,5 @@
 import React from 'react'
-import Hello from './components/Hello';
+import Hello from './about/page';
 
 const page = () => {
   console.log("This is on server side");
